@@ -1,0 +1,51 @@
+header{
+    display: flex
+}
+.div-mot{
+    width: 20%;
+    height: 100px;
+    background-color: yellowgreen
+}
+.div-hai{
+    width: 80%;
+    height: 100px;
+    background-color: tomato
+}
+.div-ba{
+    height: 300px;
+    background-color: darkcyan
+}
+.div-ben-ngoai-2{
+    display: flex
+}
+.div-con-1{
+    width: 33.33%;
+    height: 100px;
+}
+.div-bon{
+    background-color: orangered;
+}
+.div-nam{
+    background-color: violet;
+}
+.div-sau{
+    background-color: darkkhaki;
+}
+.div-ben-ngoai-3{
+    display: flex
+}
+.div-con-2{
+    width: 33.33%;
+    height: 100px;
+}
+.div-bay{
+    background-color: yellow;
+}
+.div-tam{
+    background-color: darkorange;
+}
+.div-chin{
+    background-color: salmon;
+}
+
+
