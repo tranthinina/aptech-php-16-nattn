@@ -19,3 +19,27 @@
     background-position: center;
     background-size: cover;
 }
+.hinha{
+    max-width: 550px;
+    height:440px;
+    background-image:url(./hinha.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hinhb{
+    max-width: 550px;
+    height:440px;
+    background-image:url(./hinhb.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hinhc{
+    max-width: 437px;
+    height:440px;
+    background-image:url(./hinhc.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
