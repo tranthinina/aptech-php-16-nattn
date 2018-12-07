@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <style>
+        .first-div {
+            border-style: solid;
+            border-color: green;
+            border-width: 3px;
+        }
+
+        .second-div {
+            border-style: solid;
+            border-color:red;
+            border-width: 3px;
+        }
+        @media only screen and (min-width:768px) {
+            .first-div {
+                border-style: solid;
+                border-color: green;
+                border-width: 10px;
+            }
+
+            .second-div {
+                border-style: solid;
+                border-color:red;
+                border-width: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 first-div" style="height:200px;"></div>
+            <div class="col-8 second-div" style="height:200px;"></div>
+        </div>
+    </div>
+</body>
+
+</html>
