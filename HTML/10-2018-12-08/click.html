@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+   <button id="myToggle">Turn Toggle the light</button>
+   <img id="myImage" src="pic_bulboff.gif" style="width:100px;">
+   <script>
+         document.getElementById('myToggle').addEventListener('click', function() {
+            if (document.getElementById('myImage').src == 'http://127.0.0.1:5500/10-2018-12-08/pic_bulboff.gif') {
+               document.getElementById('myImage').src = 'pic_bulbon.gif';
+            }
+            else {
+               document.getElementById('myImage').src = 'pic_bulboff.gif';
+            }
+         });
+      </script>
+</body>
+
+</html>
