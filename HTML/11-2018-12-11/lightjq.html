@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <button id="btn">Button</button>
+    <img id="myImage" src="pic_bulboff.gif" style="width:100px;">
+ 
+
+</body>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+
+
+    $("#btn").click(function () {
+        $("#myImage").toggle("pic_bulbon.gif")
+        if ($("#myImage").src == "pic_bulbon.gif") {
+            $("#btn").text("TurnOff");
+        }
+        else {
+            $("#myImage").src = "pic_bulbon.gif"
+            $("#btn").text("TurnOn");
+        }
+    })
+
+</script>
+
+</html>
