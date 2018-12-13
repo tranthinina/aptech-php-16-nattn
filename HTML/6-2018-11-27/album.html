@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <div class="container-fluid bg-dark" style="font-family: 'Raleway', sans-serif;">
+        <div id="menu" class="container-fluid bg-dark" style="font-family: 'Raleway', sans-serif;">
             <div class="row">
                 <div class="col-7 offset-1">
                     <div class="d-flex flex-column">
@@ -36,9 +36,12 @@
     <main>
         <div class="container-fluid bg-dark">
             <div class="row">
-                <div class="col-5 offset-1 d-flex align-items-center">
-                    <i class="fas fa-camera text-white"></i>
-                    <h4 class="text-light ml-2"> Album</h4>
+                <div class="col-10 offset-1 d-flex justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-camera text-white"></i>
+                        <h4 class="text-light ml-2"> Album</h4>
+                    </div>
+                    <button id="btn" class="bg-dark border border-white-50 mb-2" style="font-size:25px;"><i class="fas fa-bars text-white-50"></i></button>
                 </div>
             </div>
         </div>
@@ -195,4 +198,13 @@
         </div>
     </footer>
 </body>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+    $('#btn').click(function() {
+        $('#menu').slideToggle(300,function() {
+
+        })
+    })
+</script>
+
 </html>
