@@ -200,11 +200,10 @@
 </body>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>
-    $('#btn').click(function() {
-        $('#menu').slideToggle(300,function() {
-
-        })
-    })
+    $(document).ready(function() {
+        $('#btn').click(function() {
+            $('#menu').slideToggle(300);
+    });
+    });
 </script>
-
 </html>
