@@ -96,3 +96,9 @@
 .color_product{
     background: rgb(254, 76, 80);
 }
+.hinh-nen{
+    background-image: url(./shop/hoa-van.jpg);
+}
+.list-none{
+    text-decoration: none;
+}
