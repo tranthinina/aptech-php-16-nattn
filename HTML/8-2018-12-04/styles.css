@@ -1,55 +1,63 @@
-.hinh1{
-    height:700px; 
-    background-image:url(./hinh1.jpg);
-    background-repeat:no-repeat;
+.hinh1 {
+    height: 700px;
+    background-image: url(./hinh1.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.hinh2{
-    height:700px; 
-    background-image:url(./hinh2.jpg);
-    background-repeat:no-repeat;
+
+.hinh2 {
+    height: 700px;
+    background-image: url(./hinh2.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.hinh3{
-    height:700px; 
-    background-image:url(./hinh3.jpg);
-    background-repeat:no-repeat;
+
+.hinh3 {
+    height: 700px;
+    background-image: url(./hinh3.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.hinha{
+
+.hinha {
     max-width: 550px;
-    height:440px;
-    background-image:url(./hinha.png);
-    background-repeat:no-repeat;
+    height: 440px;
+    background-image: url(./hinha.png);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.hinhb{
+
+.hinhb {
     max-width: 550px;
-    height:440px;
-    background-image:url(./hinhb.png);
-    background-repeat:no-repeat;
+    height: 440px;
+    background-image: url(./hinhb.png);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.hinhc{
+
+.hinhc {
     max-width: 437px;
-    height:440px;
-    background-image:url(./hinhc.png);
-    background-repeat:no-repeat;
+    height: 440px;
+    background-image: url(./hinhc.png);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.mau-xanh{
+
+.mau-xanh {
     background-color: #E3E3E1
 }
-.size-product{
-    height: 235px;
+
+.size-product {
+    height: 250px;
     width: 235px;
 }
+
 /* .red_button {
     display: inline-flex;
     flex-direction: column;
@@ -90,15 +98,71 @@
     text-transform: uppercase;
     color: white
 }
+
 .product_bubble_right {
     right: 15px;
 }
-.color_product{
+
+.color_product {
     background: rgb(254, 76, 80);
 }
-.hinh-nen{
+
+.hinh-nen {
     background-image: url(./shop/hoa-van.jpg);
 }
-.list-none{
+
+.list-none {
     text-decoration: none;
+}
+
+.product_sale {
+    position: absolute;
+    top: 15px;
+    width: 50px;
+    height: 22px;
+    border-radius: 3px;
+    text-transform: none;
+    color: white
+}
+
+.product_sale_right {
+    right: 15px;
+}
+
+.color_product {
+    background: rgb(254, 76, 80);
+}
+
+.btn_addtocart {
+    /* color: white; */
+    /* font-weight: bold; */
+    border-radius: 35px
+}
+
+.product_new {
+    position: absolute;
+    top: 15px;
+    width: 50px;
+    height: 22px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: white
+}
+
+.product_new_left {
+    left: 15px;
+}
+
+.hinh-nen {
+    background-image: url(./shop/hoa-van.jpg);
+}
+
+.list-none {
+    color: white;
+    text-decoration: none;
+}
+
+.color_text {
+    color: rgb(254, 76, 80);
+    font-weight: bold;
 }
