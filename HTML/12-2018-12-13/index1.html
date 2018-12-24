@@ -29,20 +29,20 @@
             <tbody>
 
             </tbody>
-        </table>
+        </table>s
     </div>  
     <script>
         $(document).ready(function () {
             $("button").click(function () {
-                $.getJSON("data1.json", function (data) {
-                    //console.log(data);
+                // $.getJSON("https://namcoi.com/projects/laravel-crud/api/users", function (data) {
+                //     //console.log(data);
 
                     var items = [];
-                    var k  = Object.keys(data);
+                    // var k  = Object.keys(data);
                     // for (var i = 0; i < k.length; i++) {
-                        console.log(Object.keys(data)[1]);
+                        // console.log(Object.keys(data)[1]);
                         // console.log(data[k[0]]);
-                         console.log(data.users);
+                        //  console.log(data.users);
 
                         for (var j = 0; j < data[k[1]].length; j++) {
                             //console.log(data[k[1]][j]);
