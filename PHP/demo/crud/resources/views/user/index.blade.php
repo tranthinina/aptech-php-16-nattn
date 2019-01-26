@@ -3,7 +3,7 @@
 <div class="container">
   <div class="row">
     <div class="col-12">
-    <table class="table text-center table-bordered">
+    <table class="table text-center table-hover table-bordered">
       <thead>
         <tr>
           <th scope="col">#</th>
@@ -38,7 +38,27 @@
     </div>
   </div>
 </div>
+<div class="d-flex justify-content-center">
+  <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      {{ $users->links()}}
+      <li class="page-item"><a class="page-link" href="#">{{ $users->links()}}</a></li>
+      <!-- <li class="page-item"><a class="page-link" href="#">{{ $users->links()}}</a></li> -->
+      <!-- <li class="page-item"><a class="page-link" href="#">{{ $users->links()}}</a></li> -->
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+</div>
 
-
-{{ $users->links() }}
+<!-- {{ $users->links()}} -->
+ 
+</nav>
+<!-- {{ $users->links()}} -->
 @endsection
