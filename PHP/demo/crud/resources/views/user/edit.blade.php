@@ -4,7 +4,7 @@
 <div class="container">
   <div class="row">
     <div class="col">
-    <form action="{{route('users.update', $user->id)}}" method="post">
+      <form action="{{route('users.update', $user->id)}}" method="post">
       <!-- <form action="{{route('users.update',['id'=> $user->id])}}" method="post"> -->
         {{method_field('put')}}
         <div class="form-group">

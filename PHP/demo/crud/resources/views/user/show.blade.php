@@ -19,12 +19,12 @@
           <td>{{$user->email}}</td>
           <td class="d-flex justify-content-around">
             <form action="{{route('users.edit',[$user->id])}}">
-              <button type="submit" class="btn btn-sm btn-warning rounded-0">Edit</button>
+              <button type="submit" class="btn btn-sm btn-warning">Edit</button>
             </form>
             <form action="{{route('users.destroy',$user->id)}}" method="post">
               <input type="hidden" name="_method" value="delete">
                 {{csrf_field()}}
-              <button type="submit" class="btn btn-sm btn-danger rounded-0">Delete</button>
+              <button type="submit" class="btn btn-sm btn-danger">Delete</button>
             </form>
           </td>
         </tr>

@@ -34,31 +34,11 @@
         </tr>
         @endforeach
       </tbody>
-</table>
+      </table>
     </div>
   </div>
 </div>
-<div class="d-flex justify-content-center">
-  <ul class="pagination">
-      <li class="page-item">
-        <a class="page-link" href="#" aria-label="Previous">
-          <span aria-hidden="true">&laquo;</span>
-        </a>
-      </li>
-      {{ $users->links()}}
-      <li class="page-item"><a class="page-link" href="#">{{ $users->links()}}</a></li>
-      <!-- <li class="page-item"><a class="page-link" href="#">{{ $users->links()}}</a></li> -->
-      <!-- <li class="page-item"><a class="page-link" href="#">{{ $users->links()}}</a></li> -->
-      <li class="page-item">
-        <a class="page-link" href="#" aria-label="Next">
-          <span aria-hidden="true">&raquo;</span>
-        </a>
-      </li>
-    </ul>
-</div>
 
-<!-- {{ $users->links()}} -->
+{{ $users->links()}}
  
-</nav>
-<!-- {{ $users->links()}} -->
 @endsection
